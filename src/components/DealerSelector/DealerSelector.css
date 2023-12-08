@@ -1,0 +1,22 @@
+.dealer-selector {
+  border: none;
+  background: #ebe2dd;
+  color: #364037;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  align-self: center;
+  font-size: 25px;
+  font-weight: 600;
+  transition: opacity .1s linear;
+}
+
+.dealer-selector:hover {
+  opacity: 0.7;
+}
+
+.dealer-selector__option {
+  background: #f2f2f2;
+  color: black;
+}

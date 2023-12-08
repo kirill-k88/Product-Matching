@@ -1,0 +1,146 @@
+.marking {
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border: 5px solid #ebe2dd;
+  border-radius: 30px;
+}
+
+.marking__container {
+  width: calc(98% - 8px);
+  height: calc(100vh - 230px);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.marking__matchList-container {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #ebe2dd;
+}
+
+.marking__matchList-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.marking__matchList-container::-webkit-scrollbar-thumb {
+  background-color: #7a7a7a;
+  border-radius: 20px;
+}
+
+.marking__matchList-container::-webkit-scrollbar-track {
+  background-color: #e5e5e5;
+}
+
+.marking__matching-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.marking__match-container {
+  width: 100%;
+  padding: 10px 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background-color: #ebe2dd;
+}
+
+.marking__btn-small-container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.marking__btn {
+  flex-grow: 1;
+  margin: 0 2px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 15px;
+  background: #ebe2dd;
+  color: #7a7a7a;
+  border: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1500px) {
+  .marking__btn-small-container {
+    height: 30px;
+  }
+
+  .marking__btn {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .marking__container {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .marking {
+    gap: 10px;
+  }
+
+  .marking__dealer-name {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .marking {
+    gap: 5px;
+  }
+
+  .marking__btn {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .marking__container {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .marking__btn {
+    font-size: 8px;
+    line-height: 14px;
+  }
+
+  .marking__container {
+    gap: 5px;
+  }
+}

@@ -1,0 +1,115 @@
+.search-form {
+  width: calc(100% - 4px);
+  min-height: 40px;
+  margin: 0 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: center;
+  gap: 10px;
+  background: transparent;
+  border: 0px;
+  border-radius: 12px;
+}
+
+.search-form__field-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-form__field {
+  width: calc(90% - 10px);
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  padding-left: 5px;
+  font-size: 15px;
+  line-height: 30px;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: none;
+  background-color: #7a7a7a;
+  color: #ebe2dd;
+  border-radius: 10px;
+}
+
+.search-form__field::placeholder {
+  color: #ebe2dd;
+}
+
+.search-form__field:focus {
+  outline: none;
+}
+
+.search-form__submit-btn {
+  width: 10%;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url('../../images/serchInFullList/search-icon.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.search-form__submit-btn_disabled {
+  opacity: 0.2;
+}
+
+.search-form__matchList-container {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.search-form__matchList-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.search-form__matchList-container::-webkit-scrollbar-thumb {
+  background-color: #7a7a7a;
+  border-radius: 20px;
+}
+
+.search-form__matchList-container::-webkit-scrollbar-track {
+  background-color: #e5e5e5;
+}
+
+.search-form__no-goods {
+  max-width: calc(100% - 3px);
+  margin: 0;
+  margin-left: 3px;
+  margin-bottom: 20px;
+  margin-left: 3px;
+  margin-bottom: 20px;
+  padding: 0;
+  word-break: break-all;
+  font-size: 15px;
+  line-height: 30px;
+  word-break: break-all;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: normal;
+  text-align: center;
+  text-align: center;
+}

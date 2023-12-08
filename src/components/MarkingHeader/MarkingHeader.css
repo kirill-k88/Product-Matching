@@ -1,0 +1,51 @@
+.marking__header {
+  width: calc(98% - 9px);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.marking__header-btn {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: transparent;
+  border: none;
+  border-bottom: 5px solid #ebe2dd;
+  color: #ebe2dd;
+  text-align: left;
+  cursor: pointer;
+}
+
+.marking__dealer-name {
+  justify-self: end;
+  align-self: end;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  color: #7a7a7a;
+  border-radius: 15px;
+  background-color: #ebe2dd;
+}
+
+@media screen and (max-width: 1100px) {
+  .marking__header-btn {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

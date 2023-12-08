@@ -1,0 +1,154 @@
+.stat-info {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 33px 20px 33px 35px;
+  margin: 0 30px 0 0;
+  box-sizing: border-box;
+  background-color: #ebe2dd;
+  min-height: 450px;
+  position: relative;
+}
+
+.stat-info__info-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+  color: #364037;
+}
+
+.stat-info__info-form {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #7a7a7a;
+  border-bottom: 2px solid #7a7a7a;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.stat-info__text-input-label {
+  border: 3px solid #7a7a7a;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 5px;
+  box-sizing: border-box;
+  cursor: text;
+}
+
+.stat-info__text-input {
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.stat-info__search-icon {
+  background-image: url('../../images/serchInFullList/search-icon.png');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.stat-info__subtitle {
+  margin: 10px 0 0;
+  color: #364037;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.stat-info__date-input-box {
+  display: flex;
+  margin: 10px 0 0;
+  justify-content: space-between;
+}
+
+.stat-info__date-input {
+  background-color: transparent;
+  border: 2px solid #7a7a7a;
+  border-radius: 5px;
+  padding: 3px 5px;
+  width: 40%;
+  content: attr(data-placeholder);
+}
+
+.stat-info__form-button {
+  background-color: transparent;
+  color: #364037;
+  border: 2px solid #7a7a7a;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity .1s linear;
+  margin: 10px 0 0;
+  align-self: flex-start;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.stat-info__form-button:hover {
+  opacity: 0.7;
+}
+
+.stat-info__form-button_disabled {
+  color: gray;
+  border: 2px solid gray;
+  cursor: default;
+}
+
+.stat-info__form-button_disabled:hover {
+  opacity: 1;
+}
+
+.stat-info__total-matched {
+  margin: 15px 0 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #364037;
+}
+
+.stat-info__dealer-info {
+  margin: 15px 0 0;
+}
+
+.stat-info__dealer-info-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: #364037;
+}
+
+.stat-info__dealer-matched {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 15px 0 0;
+  color: #364037;
+}
+
+.stat-info__matched-quant {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+  color: #364037;
+}
+
+.stat-info__matched-quant_type_green {
+  color: green;
+}
+
+.stat-info__matched-quant_type_red {
+  color: red;
+}
+
+.stat-info__err-message {
+  font-size: 30px;
+  font-weight: 500;
+  align-self: center;
+  color: #364037;
+}
+
+.display-none {
+  display: none;
+}

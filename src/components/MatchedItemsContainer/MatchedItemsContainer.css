@@ -1,0 +1,110 @@
+.match-items-cont__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0 0;
+  position: relative;
+  color: #364037;
+}
+
+.match-items-cont__matching-link {
+  position: absolute;
+  background-image: url('../../images/statisticsPage/link-icon.svg');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.match-items-cont__container:first-of-type {
+  margin: 0;
+}
+
+.match-items-cont__box {
+  width: 47%;
+  min-height: 120px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 10px 8px;
+  box-sizing: border-box;
+  background-color: #ebe2dd;
+}
+
+.match-items-cont__box-title {
+  font-size: 24px;
+  font-weight: 600;
+  align-self: center;
+  margin: 0;
+}
+
+.match-items-cont__product-name {
+  font-size: 14px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 15px 0 0;
+}
+
+.match-items-cont__product-price {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 8px 0 0;
+}
+
+.match-items-cont__dealer-name {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 8px 0 0;
+}
+
+.match-items-cont__date-link-box {
+  margin: 8px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.match-items-cont__product-date {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.match-items-cont__product-link {
+  font-size: 18px;
+  font-weight: 400;
+  align-self: flex-end;
+  text-decoration: none;
+  color: #7a7a7a;
+  transition: opacity .1s linear;
+}
+
+.match-items-cont__product-link:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.match-items-cont__arrow-image {
+  background-image: url('../../images/statisticsPage/arrows-icon.svg');
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+}
+
+.match-items-cont__product-min-price {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 8px 0 0;
+}
+
+.match-items-cont__product-article {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 8px 0 0;
+}

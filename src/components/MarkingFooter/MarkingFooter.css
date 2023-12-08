@@ -1,0 +1,43 @@
+.marking__footer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  gap: 10px;
+}
+
+.marking__btn-footer {
+  margin: 0 2px;
+  padding: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 44px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #ebe2dd;
+  border: 5px solid #ebe2dd;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+@media screen and (max-width: 1550px) {
+  .marking__btn-footer {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .marking__footer {
+    height: 30px;
+  }
+
+  .marking__btn-footer {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}

@@ -1,0 +1,85 @@
+.def-items-cont {
+  width: 49%;
+  min-height: 120px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 10px 8px;
+  box-sizing: border-box;
+  background-color: #ebe2dd;
+  margin: 15px 0 0;
+  position: relative;
+}
+
+.def-items-cont__marking-link {
+  position: absolute;
+  background-image: url('../../images/statisticsPage/link-icon.svg');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.def-items-cont:nth-of-type(2n) {
+  margin: 15px 0 0 25px;
+}
+
+.def-items-cont:first-of-type, .def-items-cont:nth-of-type(2) {
+  margin-top: 0;
+}
+
+.def-items-cont__box-title {
+  font-size: 24px;
+  font-weight: 600;
+  align-self: center;
+  margin: 0;
+}
+
+.def-items-cont__product-name {
+  font-size: 14px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 15px 0 0;
+}
+
+.def-items-cont__product-price {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 8px 0 0;
+}
+
+.def-items-cont__dealer-name {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 8px 0 0;
+}
+
+.def-items-cont__date-link-box {
+  margin: 8px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.def-items-cont__product-date {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.def-items-cont__product-link {
+  font-size: 18px;
+  font-weight: 400;
+  align-self: flex-end;
+  text-decoration: none;
+  color: #7a7a7a;
+  transition: opacity .1s linear;
+}
+
+.def-items-cont__product-link:hover {
+  opacity: 0.7;
+}
