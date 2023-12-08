@@ -6,8 +6,8 @@
 
 Frontend-разработчики:
 
-1. Буторин Иван, https://t.me/algoritmi4
-2. Кацнельсон Кирилл, https://t.me/Kirill_Katsnelson
+1. Кацнельсон Кирилл, https://t.me/Kirill_Katsnelson
+2. Буторин Иван, https://t.me/algoritmi4
 
 Backend-разработчики:
 
